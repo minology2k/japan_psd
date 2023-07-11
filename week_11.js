@@ -1,15 +1,23 @@
-var headerTabs = document.getElementsByClassName('header__nav-list')
-var headerIcon1 = document.querySelectorAll('.header__social > i')
-var headerLogo = document.querySelector('.logo:first-child')
-var showcaseBackground = document.getElementsByClassName('banner__overlay');
-var scrollDownButton = document.getElementsByClassName('banner__button')
-var scrollUpButton = document.getElementsByClassName('to-header')
-var categoryTabs = document.getElementsByClassName('category__list')
-var cardImage1 = document.querySelector('.category__card-img img')
-var cardImage2 = document.querySelector('.category__card-img:nth-child(2) img')
-// var cardImage3 = document.querySelector('.category__card-img:nth-child(3) img')
-// var cardImage4 = document.querySelector('.category__card-img:nth-child(4) img')
+var headerTabs = document.querySelectorAll(
+  ".header__nav-list > .header__nav-item"
+);
+var headerIcons = document.querySelectorAll(".header__social > i");
+var headerLogo = document.querySelector(".logo:first-child");
+var showcaseBackground = document.querySelector(".banner__img > img");
+var scrollDownButton = document.querySelector(".banner__button");
+var scrollUpButton = document.querySelector(".to-header");
+var categoryTabs = document.querySelectorAll(
+  ".category__list > .category__item"
+);
+var cardImages = document.querySelectorAll(".category__card-img img");
 
-
-console.log(headerTabs, headerIcon1, headerLogo, showcaseBackground, scrollDownButton, scrollUpButton, categoryTabs, cardImage1, cardImage2)
-// , cardImage3, cardImage4
+console.log({
+  headerTabs,
+  headerIcons,
+  headerLogo,
+  showcaseBackground,
+  scrollDownButton,
+  scrollUpButton,
+  categoryTabs,
+  cardImages,
+});
